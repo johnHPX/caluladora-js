@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="display">0</div>
+
+        <button id="ac" onclick="clearDisplay()">AC</button>
+        <button id="mod">%</button>
+        <button id="vezes" onclick="operator('*')">X</button>
+        <button id="div" onclick="operator('/')">/</button>
+        <button id="igual" onclick="equalResult()">=</button>
+        <button id="menos" onclick="operator('-')">-</button>
+        <button id="mais" onclick="operator('+')">+</button>
+        <button id="zero" onclick="addNumber('0')">0</button>
+        <button id="um" onclick="addNumber('1')">1</button>
+        <button id="dois" onclick="addNumber('2')">2</button>
+        <button id="tres" onclick="addNumber('3')">3</button>
+        <button id="quatro" onclick="addNumber('4')">4</button>
+        <button id="cinco" onclick="addNumber('5')">5</button>
+        <button id="seis" onclick="addNumber('6')">6</button>
+        <button id="sete" onclick="addNumber('7')">7</button>
+        <button id="oito" onclick="addNumber('8')">8</button>
+        <button id="nove" onclick="addNumber('9')">9</button>
+        <button id="ponto" onclick="addNumber('.')">,</button>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
